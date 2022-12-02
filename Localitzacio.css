@@ -1,0 +1,86 @@
+ .b-example-divider {
+     font-family: Arial, Helvetica, sans-serif
+ }
+
+ /*El b-example-divider fa el refrencia al contenedor gran sobre el header o tambe sobre la capçelera */
+ .b-example-divider {
+     background: #53dbd29c;
+     display: flex;
+     justify-content: center;
+     margin-top: 0%;
+     font-size: 140%;
+ }
+
+ /* El container es on definirem els botons per a la navegacio de les diferentes pagines.*/
+ .container {
+     border-radius: 0%;
+     height: 10%;
+ }
+
+ /*El nav es per a poder definir on estaran els boton*/
+ .nav {
+     justify-content: right;
+ }
+
+ /*Color dels container 1*/
+ .primer-container-gran {
+     background-color: #ffffffa2;
+ }
+
+ /*El contenedior 2 te una explicació sobre el restaurant*/
+ .container2 {
+     padding-top: 3%;
+     padding-bottom: 6%;
+     background-color: #dee06188;
+     color: #000000;
+     text-align: center
+     margin-boto
+ }
+
+ /*El footer es el peu de psagina per a la pagina web*/
+ .footers {
+     padding-top: 4%;
+     margin-top: 0%;
+     background: #000000;
+     color: #ffffff;
+     border-radius: 0%;
+     text-align: center;
+ }
+
+ @media (max-width:700px) {
+     .b-example-divider {
+         background: #53dbd29c;
+         display: flex;
+         justify-content: right;
+         margin-top: 0%;
+         font-size: 90%;
+
+     }
+
+     .container {
+         border-radius: 0%;
+         height: 10%;
+     }
+
+     .nav {
+         justify-content: center;
+     }
+
+     .primer-container-gran {
+         background-color: #ffffffa2;
+
+     }
+
+     .container1 {
+         padding-top: 3%;
+         padding-bottom: 5%;
+         width: 99%;
+         height: 70%;
+         color: #000000;
+         border-radius: 0%;
+         text-align: center;
+
+     }
+
+
+ }
