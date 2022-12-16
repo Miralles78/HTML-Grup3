@@ -4,13 +4,61 @@
 
  /*El b-example-divider fa el refrencia al contenedor gran sobre el header o tambe sobre la capçelera */
  .b-example-divider {
-     background: #53dbd29c;
+     background: rgb(0, 0, 0);
      display: flex;
-     justify-content: center;
      margin-top: 0%;
-     font-size: 140%;
- }
+     box-shadow: 0px 0px 90px rgb(255, 255, 255);
+     backdrop-filter: blur(100px);
 
+    }
+ .logo{
+    margin-left: -19%;
+    width: 20%;
+    height: 20%;
+}
+
+
+.boto-qui-som{ 
+    margin-right: 6%;
+    text-decoration: none;
+    padding: 8%;
+    font-weight: 20%;
+    font-size: 130%;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius:  6px;
+    border: 2px solid #0016b0;
+}
+.boto-cartes{
+    text-decoration: none;
+    padding: 7px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+}
+.boto-localitzacio{
+    text-decoration: none;
+    padding: 7px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #d76868;
+    border-radius: 6px;
+    border: 2px solid #000000;
+}
+.boto-contacte{
+    text-decoration: none;
+    padding: 7px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+}
  /* El container es on definirem els botons per a la navegacio de les diferentes pagines.*/
  .container {
      border-radius: 0%;
@@ -18,9 +66,6 @@
  }
 
  /*El nav es per a poder definir on estaran els boton*/
- .nav {
-     justify-content: right;
- }
 
  /*Color dels container 1*/
  .primer-container-gran {
@@ -39,7 +84,6 @@
      color: #000000;
      text-align: center;
      font-family: Georgia, sans-serif
-
  }
 
  .mapa {
@@ -50,48 +94,101 @@
 
  /*El footer es el peu de psagina per a la pagina web*/
  .footers {
-     padding-top: 2%;
-     margin-top: 0%;
-     background: #000000;
-     color: #ffffff;
-     border-radius: 0%;
-     text-align: left;
- }
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: auto;
+    background: #000000;
+    color: #ffffff;
+    border-radius: 0%;
+    backdrop-filter: blur(70px);
+    box-shadow: 0px 0px 90px #222;
+}
+.Horaris{
+    text-align: left;
+    font-size: 100%;
+    margin-left: 4%;
+}
+.logo-footer{
+    width: 15%;
+    height: 15%;
+    margin-left: 40%;
+    margin-top: -20%;
+}
+.copy{
+    font-size: 60%;
+    margin-left: 2%;
 
- @media (max-width:700px) {
-     .b-example-divider {
-         background: #53dbd29c;
-         display: flex;
-         justify-content: right;
-         margin-top: 0%;
-         font-size: 90%;
+}
 
-     }
+@media (max-width:700px) {
+    .b-example-divider {
+        font-family: Arial, Helvetica, sans-serif
+    }
+   
+    /*El b-example-divider fa el refrencia al contenedor gran sobre el header o tambe sobre la capçelera */
+    .b-example-divider {
+        background: rgba(83, 219, 210, 0.612);
+        display: flex;
+        justify-content: center;
+        margin-top: 0%;
+        font-size: 140%;
+        box-shadow: 0px 0px 90px #222;
+        backdrop-filter: blur(100px);
+       }
 
-     .container {
-         border-radius: 0%;
-         height: 10%;
-     }
-
-     .nav {
-         justify-content: center;
-     }
-
-     .primer-container-gran {
-         background-color: #ffffffa2;
-
-     }
-
-     .container1 {
-         padding-top: 3%;
-         padding-bottom: 5%;
-         width: 99%;
-         height: 70%;
-         color: #000000;
-         border-radius: 0%;
-         text-align: center;
-
-     }
-
-
+    /* El container es on definirem els botons per a la navegacio de les diferentes pagines.*/
+    .container {
+        border-radius: 0%;
+        height: 10%;
+    }
+   
+    /*El nav es per a poder definir on estaran els boton*/
+    .nav {
+        justify-content: right;
+    }
+   
+    /*Color dels container 1*/
+    .primer-container-gran {
+        background-color: #ffffffa2;
+    }
+   .text{
+       color:rgb(0, 0, 0);
+       font-family: Georgia, sans-serif
+   
+   }
+    /*El contenedior 2 te una explicació sobre el restaurant*/
+    .container2 {
+        padding-top: 3%;
+        padding-bottom: 6%;
+        background-color: #dee06188;
+        color: #000000;
+        text-align: center;
+        font-family: Georgia, sans-serif
+   
+   
+   
+    }
+   
+    .mapa {
+       margin-top: 2%;
+        width: 99%;
+        height: 800px;
+    }
+   
+    /*El footer es el peu de psagina per a la pagina web*/
+    .footers {
+       padding-top: 1%;
+       padding-bottom: 1%;
+       width: auto;
+       background: #000000;
+       color: #ffffff;
+       border-radius: 0%;
+       backdrop-filter: blur(70px);
+       box-shadow: 0px 0px 90px #222;
+   }
+   .Horaris{
+       text-align: left;
+       padding-left: 2%;
+       font-size: 120%;
+   }
  }
