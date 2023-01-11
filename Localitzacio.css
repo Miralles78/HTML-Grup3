@@ -4,60 +4,13 @@
 
  /*El b-example-divider fa el refrencia al contenedor gran sobre el header o tambe sobre la capçelera */
  .b-example-divider {
-     background: rgb(0, 0, 0);
-     display: flex;
-     margin-top: 0%;
-     box-shadow: 0px 0px 90px rgb(255, 255, 255);
-     backdrop-filter: blur(100px);
-
-    }
- .logo{
-    margin-left: -19%;
-    width: 20%;
-    height: 20%;
-}
-
-
-.boto-qui-som{ 
-    margin-right: 6%;
-    text-decoration: none;
-    padding: 8%;
-    font-weight: 20%;
-    font-size: 130%;
-    color: #ffffff;
-    background-color: #1883ba;
-    border-radius:  6px;
-    border: 2px solid #0016b0;
-}
-.boto-cartes{
-    text-decoration: none;
-    padding: 7px;
-    font-weight: 600;
-    font-size: 20px;
-    color: #ffffff;
-    background-color: #1883ba;
-    border-radius: 6px;
-    border: 2px solid #0016b0;
-}
-.boto-localitzacio{
-    text-decoration: none;
-    padding: 7px;
-    font-weight: 600;
-    font-size: 20px;
-    color: #ffffff;
-    background-color: #d76868;
-    border-radius: 6px;
-    border: 2px solid #000000;
-}
-.boto-contacte{
-    text-decoration: none;
-    padding: 7px;
-    font-weight: 600;
-    font-size: 20px;
-    color: #ffffff;
-    background-color: #1883ba;
-    border-radius: 6px;
-    border: 2px solid #0016b0;
+    background-color: #ffffff;
+    color: rgb(248, 3, 3);
+    justify-content: center;
+    margin-top: 0%;
+    font-size: 140%;
+    box-shadow: 0px 0px 90px rgb(255, 255, 255);
+    backdrop-filter: blur(100px);
 }
  /* El container es on definirem els botons per a la navegacio de les diferentes pagines.*/
  .container {
@@ -177,18 +130,30 @@
    
     /*El footer es el peu de psagina per a la pagina web*/
     .footers {
-       padding-top: 1%;
-       padding-bottom: 1%;
-       width: auto;
-       background: #000000;
-       color: #ffffff;
-       border-radius: 0%;
-       backdrop-filter: blur(70px);
-       box-shadow: 0px 0px 90px #222;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        width: auto;
+        background: #000000;
+        color: #ffffff;
+        border-radius: 0%;
+        backdrop-filter: blur(70px);
+        box-shadow: 0px 0px 90px #222;
+    }
+    .Horaris{
+        text-align: left;
+        font-size: 100%;
+        margin-left: 4%;
+    }
+    .logo-footer{
+        width: 15%;
+        height: 15%;
+        margin-left: 40%;
+        margin-top: -20%;
+    }
+    .copy{
+        font-size: 60%;
+        margin-left: 2%;
+    
+    }
    }
-   .Horaris{
-       text-align: left;
-       padding-left: 2%;
-       font-size: 120%;
-   }
- }
+ 

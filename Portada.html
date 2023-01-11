@@ -1,5 +1,6 @@
 <!doctype html>
-<html>
+<html lang="ca">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,17 +14,15 @@
     <title> Raco del Montisa</title>
     <link rel="stylesheet" href="total.css">
 </head>
-
 <body>
     <!-- Navegacions " header de la pagina web" -->
     <div class="b-example-divider">
         <div class="container">
             <header>
-                <img src="logo.png" class="logo">
                 <ul class="nav col-12 col-md-auto mb-2 mb-md-0">
                     <li><a href="Portada.html" class="nav-link px-5 link-dark">Qui som?</a></li>
                     <li><a href="Cartes.html" class="nav-link px-5 link-dark">Menu</a></li>
-                    <li><a href="Localització.html" class="nav-link px-5 link-dark">Localització</a></li>
+                    <li><a href="Localitzacio.html" class="nav-link px-5 link-dark">Localització</a></li>
                     <li><a href="#" class="nav-link px-5 link-dark">Contactans</a></li>
                 </ul>
             </header>
@@ -31,74 +30,76 @@
     </div>
     <!-- Conteneador amb 3 fotos del restaurant -->
     <div class="primer-container-gran">
-    <div class="container1">    
-        <h1 class="margin">El  Raco del Montsia</h1>
-        <div class="slide">
-            <div class="slide-inner">
-                <input class="slide-open" type="radio" id="slide-1" 
-                      name="slide" aria-hidden="true" hidden="" checked="checked">
-                <div class="slide-item">
-                    <img src="1.jpg"
-                    width = 100%
-                    height = 100% />
+        <div class="container1">
+            <h1 class="margin">El Raco del Montsia</h1>
+            <div class="recuadre">
+            <div class="slide">
+                    <div class="slide-inner">
+                        <input class="slide-open" type="radio" id="slide-1" name="slide" aria-hidden="true" hidden=""
+                            checked="checked">
+                        <div class="slide-item">
+                            <img src="menjador.jpg" width=100% height=100% alt="Espera" />
+
+                        </div>
+                        <input class="slide-open" type="radio" id="slide-2" name="slide" aria-hidden="true" hidden="">
+                        <div class="slide-item">
+                            <img src="2.jpg" width=100% height=100% alt="Espera" />
+                        </div>
+                        <input class="slide-open" type="radio" id="slide-3" name="slide" aria-hidden="true" hidden="">
+                        <div class="slide-item">
+                            <img src="3.jpg" width=100% height=100% alt="Espera" />
+                        </div>
+                        <label for="slide-3" class="slide-control prev control-1">‹</label>
+                        <label for="slide-2" class="slide-control next control-1">›</label>
+                        <label for="slide-1" class="slide-control prev control-2">‹</label>
+                        <label for="slide-3" class="slide-control next control-2">›</label>
+                        <label for="slide-2" class="slide-control prev control-3">‹</label>
+                        <label for="slide-1" class="slide-control next control-3">›</label>
+                        <ol class="slide-indicador">
+                            <li>
+                                <label for="slide-1" class="slide-circulo">•</label>
+                            </li>
+                            <li>
+                                <label for="slide-2" class="slide-circulo">•</label>
+                            </li>
+                            <li>
+                                <label for="slide-3" class="slide-circulo">•</label>
+                            </li>
+                        </ol>
+                    </div>
+
                 </div>
-                <input class="slide-open" type="radio" id="slide-2" 
-                      name="slide" aria-hidden="true" hidden="">
-                <div class="slide-item">
-                    <img src="2.jpg"
-                    width = 100%
-                    height = 100% />
-                </div>
-                <input class="slide-open" type="radio" id="slide-3" 
-                      name="slide" aria-hidden="true" hidden="">
-                <div class="slide-item">
-                    <img src="3.jpg"
-                    width = 100%
-                    height = 100% />
-                </div>
-                <label for="slide-3" class="slide-control prev control-1">‹</label>
-                <label for="slide-2" class="slide-control next control-1">›</label>
-                <label for="slide-1" class="slide-control prev control-2">‹</label>
-                <label for="slide-3" class="slide-control next control-2">›</label>
-                <label for="slide-2" class="slide-control prev control-3">‹</label>
-                <label for="slide-1" class="slide-control next control-3">›</label>
-                <ol class="slide-indicador">
-                    <li>
-                        <label for="slide-1" class="slide-circulo">•</label>
-                    </li>
-                    <li>
-                        <label for="slide-2" class="slide-circulo">•</label>
-                    </li>
-                    <li>
-                        <label for="slide-3" class="slide-circulo">•</label>
-                    </li>
-                </ol>
             </div>
-            
-        </div>
-          </div>
         </div>
 
-    <!-- Resum de qui som. -->
-    <div id="64" class="container2">
-        <h3 class="margin">Qui som?</h3>
-        <p>Hola</p>
+        <!-- Resum de qui som. -->
+        <div id="64" class="container2">
+            <h2 class="margin">Qui som?</h2>
+            <h1></h1>
+            <h4>Nosaltres som un restaurant que es situa a la població de freginals, et donem una oprtunitat a venir u
+                porvar el minjar casola que fem nosaltres </h4>
 
+        </div>
     </div>
-
 
     <!-- Peu de la pagina. -->
     <footer class="footers">
-        <p>Horaris</p>
-        <p>Dilluns 9:00 - 15:00<p>
-        <p>Dimarts Tancat</p>
-        <p>Dimecres 9:00 - 15:00</p>
-        <p>Dijous 9:00 - 15:00</p>
-        <p>Divendres 9:00 - 15:00 </p>
-        <p>Dissabte 9:00 - 15:00</p>
-        <p>Diumenge 9:00 - 15:00</p>
+        <div class="Horaris">
+            <p>Horaris</p>
+            <p>Dilluns 9:00 - 15:00
+            <p>
+            <p>Dimarts Tancat</p>
+            <p>Dimecres 9:00 - 15:00</p>
+            <p>Dijous 9:00 - 15:00</p>
+            <p>Divendres 9:00 - 15:00 </p>
+            <p>Dissabte 9:00 - 15:00</p>
+            <p>Diumenge 9:00 - 15:00</p>
+        </div>
+        <h5 class="copy">© ASIX DAW EQUIP 3</h5>
+        <img class="logo-footer " src="logo.png" alt="Espera">
     </footer>
-</div>
+    </div>
 
 </body>
+
 </html>

@@ -3,16 +3,18 @@
 }
 /*El b-example-divider fa el refrencia al contenedor gran sobre el header o tambe sobre la capçelera */
 .b-example-divider {
-    background: #0000009c;
-    display: flex;
+    background-color: #000000;
+    color: #fff;
     justify-content: center;
     margin-top: 0%;
     font-size: 140%;
+    box-shadow: 0px 0px 90px rgb(255, 255, 255);
+    backdrop-filter: blur(100px);
 }
-.logo{
-    
-    width: 10%;
-    height: 10%;
+.primer-container-gran {
+    background-image: url("fons.jpg");
+    width: auto;
+    height: auto;
 }
 /* El container es on definirem els botons per a la navegacio de les diferentes pagines.*/
 .container {
@@ -24,11 +26,6 @@
 /*El nav es per a poder definir on estaran els boton*/
 .nav {
     justify-content: right;
-}
-
-/*Color dels container 1*/
-.primer-container-gran {
-    background-color: #ffffffa2;
 }
 
 /*El contenedior 1 te fotos sobre el restaurant*/
@@ -47,8 +44,7 @@
     padding-top: 3%;
     width: auto;
     padding-bottom: 20%;
-    background-color: #dee06188;
-    color: #000000;
+    color: #fdfdfd;
     text-align: center
 }
 
@@ -111,6 +107,32 @@
         color: #000000;
         border-radius: 0%;
         text-align: center;
+    }
+    .footers {
+        padding-top: 1%;
+        padding-bottom: 1%;
+        width: auto;
+        background: #000000;
+        color: #ffffff;
+        border-radius: 0%;
+        backdrop-filter: blur(70px);
+        box-shadow: 0px 0px 90px #222;
+    }
+    .Horaris{
+        text-align: left;
+        font-size: 100%;
+        margin-left: 4%;
+    }
+    .logo-footer{
+        width: 15%;
+        height: 15%;
+        margin-left: 40%;
+        margin-top: -20%;
+    }
+    .copy{
+        font-size: 60%;
+        margin-left: 2%;
+    
     }
 }
 .slide {

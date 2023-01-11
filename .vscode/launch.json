@@ -1,0 +1,14 @@
+{
+    // Use IntelliSense para saber los atributos posibles.
+    // Mantenga el puntero para ver las descripciones de los existentes atributos.
+    // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open Localització.html",
+            "file": "c:\\Users\\Miralles\\Desktop\\ASIX - DAW\\M4\\HTML I CSS\\HTML-Grup3\\Localització.html"
+        }
+    ]
+}
