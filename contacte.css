@@ -3,45 +3,56 @@
 }
 /*El b-example-divider fa el refrencia al contenedor gran sobre el header o tambe sobre la capçelera */
 .b-example-divider {
-    background-color: #000000;
-    color: #fff;
+    background: #000000;
+    display: flex;
     justify-content: center;
     margin-top: 0%;
     font-size: 140%;
-    box-shadow: 0px 0px 90px rgb(255, 255, 255);
-    backdrop-filter: blur(100px);
 }
-.primer-container-gran {
-    background-image: url("fons.jpg");
-    width: auto;
-    height: auto;
+.logo{
+    
+    width: 10%;
+    height: 10%;
 }
 /* El container es on definirem els botons per a la navegacio de les diferentes pagines.*/
 .container {
     border-radius: 0%;
     height: 10%;
-    padding-right: 0%;
-    }
+}
 
 /*El nav es per a poder definir on estaran els boton*/
 .nav {
     justify-content: right;
 }
-.menus{
+.primer-container-gran {
+    background-color: #ffffffa2;
+    background-image: url("fons.jpg");
+    width: auto;
+    height: auto;
+}
+/*Color dels container 1*/
+.primer-container-gran {
+    background-color: #ffffffa2;
+}
+
+/*El contenedior 1 te fotos sobre el restaurant*/
+.container1 {
+    padding-top: 3%;
+    padding-bottom: 5%;
+    width: 99%;
+    height: 70%;
+    color: #000000;
+    border-radius: 0%;
     text-align: center;
 }
-.Platsperemportar{
-    padding-top: 5px;
-    width: 900px;
-    height: 1000px;
-}
+
 /*El contenedior 2 te una explicació sobre el restaurant*/
 .container2 {
     padding-top: 3%;
+    width: auto;
     padding-bottom: 20%;
-    color: #fdfdfd;
-    text-align: center;
-
+    color: #ffffff;
+    text-align: center
 }
 
 /*El footer es el peu de pagina per a la pagina web*/
@@ -78,52 +89,63 @@
 .a {
     float: right;
 margin-right: 50px;
-    }
+}
 @media (max-width:700px) {
     .b-example-divider {
         font-family: Arial, Helvetica, sans-serif
     }
     /*El b-example-divider fa el refrencia al contenedor gran sobre el header o tambe sobre la capçelera */
     .b-example-divider {
-        background-color: #000000;
-        color: #fff;
+        background: #000000;
+        display: flex;
         justify-content: center;
         margin-top: 0%;
         font-size: 140%;
-        box-shadow: 0px 0px 90px rgb(255, 255, 255);
-        backdrop-filter: blur(100px);
     }
-    .primer-container-gran {
-        background-image: url("fons.jpg");
-        width: auto;
-        height: auto;
+    .logo{
+        
+        width: 10%;
+        height: 10%;
     }
     /* El container es on definirem els botons per a la navegacio de les diferentes pagines.*/
     .container {
         border-radius: 0%;
         height: 10%;
-        padding-right: 0%;
-        }
+    }
     
     /*El nav es per a poder definir on estaran els boton*/
     .nav {
         justify-content: right;
     }
-    .menus{
+    .primer-container-gran {
+        background-color: #ffffffa2;
+        background-image: url("fons.jpg");
+        width: auto;
+        height: auto;
+    }
+    /*Color dels container 1*/
+    .primer-container-gran {
+        background-color: #ffffffa2;
+    }
+    
+    /*El contenedior 1 te fotos sobre el restaurant*/
+    .container1 {
+        padding-top: 3%;
+        padding-bottom: 5%;
+        width: 99%;
+        height: 70%;
+        color: #000000;
+        border-radius: 0%;
         text-align: center;
     }
-    .Platsperemportar{
-        padding-top: 5px;
-        width: 700px;
-        height: 800px;
-    }
+    
     /*El contenedior 2 te una explicació sobre el restaurant*/
     .container2 {
         padding-top: 3%;
+        width: auto;
         padding-bottom: 20%;
-        color: #fdfdfd;
-        text-align: center;
-    
+        color: #ffffff;
+        text-align: center
     }
     
     /*El footer es el peu de pagina per a la pagina web*/
@@ -160,5 +182,5 @@ margin-right: 50px;
     .a {
         float: right;
     margin-right: 50px;
-}
+    }
 }
