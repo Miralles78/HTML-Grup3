@@ -32,8 +32,8 @@
 }
 .Platsperemportar{
     padding-top: 5px;
-    width: 900px;
-    height: 1000px;
+    width: 55%;
+    height: 75%;
 }
 /*El contenedior 2 te una explicació sobre el restaurant*/
 .container2 {
@@ -114,8 +114,8 @@ margin-right: 50px;
     }
     .Platsperemportar{
         padding-top: 5px;
-        width: 700px;
-        height: 800px;
+        width: 90%;
+        height: 100%;
     }
     /*El contenedior 2 te una explicació sobre el restaurant*/
     .container2 {

@@ -30,13 +30,12 @@ MAIL;
 $msg = wordwrap($msg,70);
 
 $headers = "From: josepmiralles@racodelmontsia.cat" . "\r\n";
-$headers .= "CC: $email" . "\r\n";
 $headers .= "Content-Type: text/plain; charset=UTF-8" . "\r\n";
 
 // send email
 mail($to,$subject,$msg,$headers);
 
-header('Location: Contatce.html');
+header('Location: Contacte.html');
 echo <<<HTML
 <html>
 <body>
